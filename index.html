@@ -1,0 +1,228 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="./src/assets/fontawesome/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/main.css"/>
+    <title>Spotify</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg fixed-top themeNav">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <div class="d-flex justify-content-start">
+                    <img id="themeNavIcon" src="./src/assets/spotify-logo.png" alt="" class="d-inline-block align-top">
+                    <div class="d-flex align-items-stretch">
+                        <span id="themeNavBrandTitle" class="align-self-center">Spotify</span>
+                    </div>
+                </div>
+            </a>
+
+            <div class="navbar-right">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link navBarMenu" href="#">Premium</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navBarMenu" href="#">Destek</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navBarMenu" href="#">İndir</a>
+                        </li>
+                        <li role="separator" class="navBarMenuSeperator"></li>
+                        <li class="nav-item">
+                            <a class="nav-link navBarMenu" href="#">Kaydol</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navBarMenu" href="#">Oturum Aç</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="containerFluid" style="margin-top: 80px;">
+
+        <section class="sectionPage1">
+            <div class="container" style="background-color: transparent; height: 100%;">
+                <div class="row" style="height: 100%;">
+                    <div class="col d-flex align-items-center justify-content-center" style="background-color: transparent; height: 100%;">
+                        <div>
+                            <h2 id="sectionTitle1">SPOTİFY PREMİUM</h2><br/>
+                            <h4 id="sectionSubTitle1">Premium'u 3 ay<br/>Ücretsiz edin</h4><br/>
+                            <h3 id="sectionDesc1">Reklamsız müzik, çevrimdışı dinleme ve daha fazlasının tadını çıkar. İstediğin zaman iptal et.</h3><br/>
+                            <a id="sectionButton1" class="d-flex align-items-center justify-content-center" href="/tr/download/" role="button">3 AY ÜCRETSİZ KULLAN</a><br/>
+                            <h6 id="sectionFooter1">Yalnızca bireysel plan için geçerlidir. Sonra ayda yalnızca 17,99 TL. Teklif, Premium'u denemiş kullanıcılar için geçerli değildir. Hüküm ve koşullar geçerlidir. Teklif 31 Ara 2020 tarihinde sona erer.</h6>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-center justify-content-center" style="background-color: transparent; height: 100%;">
+                        <img class="sectionImage1" src="./src/assets/section_image_1.png"/>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sectionPage2">
+            <div class="container" style="background-color: transparent; height: 100%;">
+                <div class="row" style="height: 100%;">
+                    <div class="col d-flex align-items-center justify-content-center" style="background-color: transparent; height: 100%;">
+                        <img class="sectionImage2" src="./src/assets/section_image_2.png"/>
+                    </div>
+                    <div class="col d-flex align-items-center justify-content-center" style="background-color: transparent; height: 100%;">
+                        <div>
+                            <h2 id="sectionTitle2">2020 Özeti</h2><br/>
+                            <h4 id="sectionSubTitle2">Neler dinlediğine<br/>gözat</h4><br/>
+                            <h3 id="sectionDesc2">Yaşadığımız en uzun yılı atlatmanı sağlayan sanatçıları, şarkıları ve podcast'leri hatırla.</h3><br/>
+                            <a id="sectionButton2" class="d-flex align-items-center justify-content-center" href="/tr/download/" role="button">ÖZETİNİ KEŞFET</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sectionPage3">
+            <section class="sectionImage3"></section>
+            <div class="overlay">
+                <div class="container">
+                    <div class="row" style="height: 100%;">
+                        <div class="col d-flex align-items-center justify-content-center" style="background-color: transparent; height: 100%;">
+                            <div>
+                                <h2 id="sectionTitle3">SPOTİFY FREE</h2><br/>
+                                <h4 id="sectionSubTitle3">Dinlemek<br/>her şeydir</h4><br/>
+                                <h3 id="sectionDesc3">Milyonlarca şarkı ve podcast. Kredi kartına gerek yok.</h3><br/>
+                                <a id="sectionButton3" class="d-flex align-items-center justify-content-center" href="/tr/download/" role="button">SPOTIFY FREE'Yİ EDİN</a>
+                            </div>
+                        </div>
+                        <div class="col" style="background-color: transparent; height: 100%;"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="d-flex mb-3">
+                    <div class="flex-grow-1">
+                        <div class="d-flex flex-row">
+                            <div class="p-2">
+                                <a class="navbar-brand" href="#">
+                                    <div class="d-flex justify-content-start">
+                                        <img id="themeNavIcon" src="./src/assets/spotify-logo.png" alt="" class="d-inline-block align-top">
+                                        <div class="d-flex align-items-stretch">
+                                            <span id="themeNavBrandTitle" class="align-self-center">Spotify</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="p-2 ms-5 mt-4">
+                                <span class="footerMenuBusinessTitle">Şirket</span>
+                                <ul class="footerMenuBusiness">
+                                    <li class="footerMenuBusinessItem"><a href="#">Hakkında</a></li>
+                                    <li class="footerMenuBusinessItem"><a href="#">İşler</a></li>
+                                    <li class="footerMenuBusinessItem"><a href="#">For the Record</a></li>
+                                </ul>
+                            </div>
+                            <div class="p-2 ms-5 mt-4">
+                                <div class="footerCommunityContainer">
+                                    <span class="footerCommunityTitle">TOPLULUKLAR</span>
+                                    <ul class="footerCommunity">
+                                        <li class="footerCommunityItem"><a href="#">Sanatçılar İçin</a></li>
+                                        <li class="footerCommunityItem"><a href="#">Geliştiriciler</a></li>
+                                        <li class="footerCommunityItem"><a href="#">Reklam</a></li>
+                                        <li class="footerCommunityItem"><a href="#">Yatırımcılar</a></li>
+                                        <li class="footerCommunityItem"><a href="#">Satıcılar</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="p-2 ms-5 mt-4">
+                                <div class="footerMenuHelpLinksContainer">
+                                    <span class="footerMenuHelpLinksTitle">YARARLI BAĞLANTILAR</span>
+                                    <ul class="footerMenuHelpLinks">
+                                        <li class="footerMenuHelpLinksItem"><a href="#">Destek</a></li>
+                                        <li class="footerMenuHelpLinksItem"><a href="#">Web Çalar</a></li>
+                                        <li class="footerMenuHelpLinksItem"><a href="#">Ücretsiz Mobil Uygulamalar</a></li>
+                                        <li class="footerMenuHelpLinksItem"><a href="#">2020 Özeti</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-2 mt-4">
+                        <ul class="socialMediaMenu list-group list-group-horizontal">
+                            <li class="socialMediaItem">
+                                <a href="https://www.instagram.com/spotify/">
+                                    <i class="fab fa-instagram" id="sociaMediaItemIcon"></i>
+                                </a>
+                            </li>
+                            <li class="socialMediaItem ms-3 me-3">
+                                <a href="https://twitter.com/spotify">
+                                    <i class="fab fa-twitter" id="sociaMediaItemIcon"></i>
+                                </a>
+                            </li>
+                            <li class="socialMediaItem">
+                                <a href="https://www.facebook.com/Spotify">
+                                    <i class="fab fa-facebook-f" id="sociaMediaItemIcon"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="footerBottomCountry">
+                    <div class="container">
+                        <div class="footerCountryContainer" ><a href="https://www.spotify.com/tr/select-your-market/" class="footerCountryLink">Türkiye <img src="https://country-flags.scdn.co/flags/tr.svg" alt="" class="footerCountry"></a></div>
+                    </div>
+                </div>
+                <div class="footerBottom">
+                    <div class="container">
+
+                        <div class="d-flex">
+                            <div class="flex-fill">
+                                <ul class="footerBottomList list-group list-group-horizontal">
+                                    <li class="footerBottomItem">
+                                        <a href="#">Yasal</a>
+                                    </li>
+                                    <li class="footerBottomItem">
+                                        <a href="#">Gizlilik Merkezi</a>
+                                    </li>
+                                    <li class="footerBottomItem">
+                                        <a href="#">Gizlilik Politikası</a>
+                                    </li>
+                                    <li class="footerBottomItem">
+                                        <a href="#">Cookies</a>
+                                    </li>
+                                    <li class="footerBottomItem">
+                                        <a href="#">Reklamlar Hakkında</a>
+                                    </li>
+                                    <li class="footerBottomItem">
+                                        <a href="about.html" target="_blank" >Geliştiren Hakkında</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="flex-shrink-1">
+                                <span style="font-size: 14px; color: #919496;">
+                                    © 2020 Spotify AB
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    <script defer src="./src/assets/fontawesome/js/all.js"></script>
+    <script type="text/javascript" src="./src/js/main.js"></script>
+</body>
+</html>
